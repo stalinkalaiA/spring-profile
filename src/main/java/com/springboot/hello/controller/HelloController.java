@@ -15,6 +15,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String sayHello() {
 		System.out.println("DB URL :: " + dbURL);
+		//System.out.println("");
 		
 		return dbURL;
 	}
